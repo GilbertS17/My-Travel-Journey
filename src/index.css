@@ -1,0 +1,107 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px
+}
+
+.nav-cent {
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  padding: 5px;
+  color: white;
+  font-family: inter ;
+  font-size: 15px;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.nav-img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.cards {
+  margin: 40px;
+  display: flex;
+  height: 175px;
+  width: 66%;
+}
+
+.column-direction {
+  display: flex;
+  flex-direction: column;
+}
+
+.cards-img-loc {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.cards-img-logo {
+  width: 25px;
+  height: 25px;
+  margin: 15px 10px 0px 15px;
+}
+
+.locaton-txt {
+  font-family: Inter;
+  font-size: 10.24px;
+  line-height: 12px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.maps-txt {
+  font-family: Inter;
+  font-size: 10.24px;
+  line-height: 12px;
+  text-decoration-line: underline;
+  color: #918E9B;
+  margin-bottom: 1000px;
+  padding: 15px
+}
+
+.cards-loc-stats {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 120px;
+  width: 100%;
+  height: 45px
+}
+
+.cards-title {
+  font-family: Inter;
+  font-weight: bold;
+  font-size: 25px;
+  color: #2B283A;
+  display: flex;
+  align-items: flex-start;
+  margin-top: -120px;
+  padding-left: 10px
+}
+
+.date-stats {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 10.24px;
+  line-height: 12px;
+  color: #2B283A;
+  display: flex;
+  margin-top: -20px;
+  padding-left: 10px;
+}
+
+.card-desc {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10.24px;
+  line-height: 150%;
+  color: #2B283A;
+  padding-left: 10px;
+}
